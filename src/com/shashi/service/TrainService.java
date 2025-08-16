@@ -1,9 +1,9 @@
-package com.shashi.service;
+package com.gautham.service;
 
 import java.util.List;
 
-import com.shashi.beans.TrainBean;
-import com.shashi.beans.TrainException;
+import com.gautham.beans.TrainBean;
+import com.gautham.beans.TrainException;
 
 public interface TrainService {
 
@@ -19,3 +19,4 @@ public interface TrainService {
 
 	public List<TrainBean> getTrainsBetweenStations(String fromStation, String toStation) throws TrainException;
 }
+
