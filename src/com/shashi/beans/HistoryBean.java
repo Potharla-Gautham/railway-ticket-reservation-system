@@ -1,4 +1,4 @@
-package com.shashi.beans;
+package com.gautham.beans;
 
 public class HistoryBean extends BookingDetails {
 
@@ -19,3 +19,4 @@ public class HistoryBean extends BookingDetails {
 	}
 
 }
+
