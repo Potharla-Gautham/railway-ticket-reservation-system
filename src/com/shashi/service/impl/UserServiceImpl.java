@@ -1,4 +1,4 @@
-package com.shashi.service.impl;
+package com.gautham.service.impl;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -7,12 +7,12 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.shashi.beans.TrainException;
-import com.shashi.beans.UserBean;
-import com.shashi.constant.ResponseCode;
-import com.shashi.constant.UserRole;
-import com.shashi.service.UserService;
-import com.shashi.utility.DBUtil;
+import com.gautham.beans.TrainException;
+import com.gautham.beans.UserBean;
+import com.gautham.constant.ResponseCode;
+import com.gautham.constant.UserRole;
+import com.gautham.service.UserService;
+import com.gautham.utility.DBUtil;
 
 public class UserServiceImpl implements UserService {
 
@@ -183,3 +183,4 @@ public class UserServiceImpl implements UserService {
 	}
 
 }
+
