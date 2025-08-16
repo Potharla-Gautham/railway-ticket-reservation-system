@@ -1,4 +1,4 @@
-package com.shashi.utility;
+package com.gautham.utility;
 
 import java.util.Arrays;
 import java.util.Optional;
@@ -8,12 +8,12 @@ import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.shashi.beans.TrainException;
-import com.shashi.beans.UserBean;
-import com.shashi.constant.ResponseCode;
-import com.shashi.constant.UserRole;
-import com.shashi.service.UserService;
-import com.shashi.service.impl.UserServiceImpl;
+import com.gautham.beans.TrainException;
+import com.gautham.beans.UserBean;
+import com.gautham.constant.ResponseCode;
+import com.gautham.constant.UserRole;
+import com.gautham.service.UserService;
+import com.gautham.service.impl.UserServiceImpl;
 
 public class TrainUtil {
 
@@ -96,3 +96,4 @@ public class TrainUtil {
 		return (UserBean) req.getServletContext().getAttribute(UserRole.CUSTOMER.toString());
 	}
 }
+
