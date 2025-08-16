@@ -1,9 +1,9 @@
-package com.shashi.service;
+package com.gautham.service;
 
 import java.util.List;
 
-import com.shashi.beans.HistoryBean;
-import com.shashi.beans.TrainException;
+import com.gautham.beans.HistoryBean;
+import com.gautham.beans.TrainException;
 
 public interface BookingService {
 
@@ -12,3 +12,4 @@ public interface BookingService {
 	public HistoryBean createHistory(HistoryBean bookingDetails) throws TrainException;
 
 }
+
