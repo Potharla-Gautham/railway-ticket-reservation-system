@@ -1,4 +1,4 @@
-package com.shashi.servlets;
+package com.gautham.servlets;
 
 import java.io.IOException;
 
@@ -29,3 +29,4 @@ public class AdminTrainUpdateFwd extends HttpServlet {
 	}
 
 }
+
