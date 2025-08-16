@@ -1,4 +1,4 @@
-package com.shashi.constant;
+package com.gautham.constant;
 
 import java.util.Arrays;
 import java.util.Optional;
@@ -43,3 +43,4 @@ public enum ResponseCode {
                 .findFirst();
     }
 }
+
