@@ -1,4 +1,4 @@
-package com.shashi.beans;
+package com.gautham.beans;
 
 import java.io.Serializable;
 
@@ -62,3 +62,4 @@ public class AdminBean implements Serializable {
 		return phNo;
 	}
 }
+
