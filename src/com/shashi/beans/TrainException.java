@@ -1,8 +1,8 @@
-package com.shashi.beans;
+package com.gautham.beans;
 
 import java.io.IOException;
 
-import com.shashi.constant.ResponseCode;
+import com.gautham.constant.ResponseCode;
 
 public class TrainException extends IOException {
 
@@ -61,3 +61,4 @@ public class TrainException extends IOException {
 	}
 
 }
+
