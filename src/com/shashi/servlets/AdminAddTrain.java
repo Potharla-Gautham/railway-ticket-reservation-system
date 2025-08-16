@@ -1,4 +1,4 @@
-package com.shashi.servlets;
+package com.gautham.servlets;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -10,13 +10,13 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.shashi.beans.TrainBean;
-import com.shashi.beans.TrainException;
-import com.shashi.constant.ResponseCode;
-import com.shashi.constant.UserRole;
-import com.shashi.service.TrainService;
-import com.shashi.service.impl.TrainServiceImpl;
-import com.shashi.utility.TrainUtil;
+import com.gautham.beans.TrainBean;
+import com.gautham.beans.TrainException;
+import com.gautham.constant.ResponseCode;
+import com.gautham.constant.UserRole;
+import com.gautham.service.TrainService;
+import com.gautham.service.impl.TrainServiceImpl;
+import com.gautham.utility.TrainUtil;
 
 @WebServlet("/adminaddtrain")
 public class AdminAddTrain extends HttpServlet {
@@ -64,3 +64,4 @@ public class AdminAddTrain extends HttpServlet {
 	}
 
 }
+
