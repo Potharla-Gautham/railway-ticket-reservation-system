@@ -1,4 +1,4 @@
-package com.shashi.servlets;
+package com.gautham.servlets;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -10,9 +10,9 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.shashi.beans.UserBean;
-import com.shashi.constant.UserRole;
-import com.shashi.utility.TrainUtil;
+import com.gautham.beans.UserBean;
+import com.gautham.constant.UserRole;
+import com.gautham.utility.TrainUtil;
 
 @SuppressWarnings("serial")
 @WebServlet("/viewuserprofile")
@@ -43,3 +43,4 @@ public class ViewUserProfile extends HttpServlet {
 	}
 
 }
+
