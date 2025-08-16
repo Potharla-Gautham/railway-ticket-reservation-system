@@ -1,4 +1,4 @@
-package com.shashi.servlets;
+package com.gautham.servlets;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -10,10 +10,10 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.shashi.beans.TrainBean;
-import com.shashi.beans.TrainException;
-import com.shashi.service.TrainService;
-import com.shashi.service.impl.TrainServiceImpl;
+import com.gautham.beans.TrainBean;
+import com.gautham.beans.TrainException;
+import com.gautham.service.TrainService;
+import com.gautham.service.impl.TrainServiceImpl;
 
 @SuppressWarnings("serial")
 @WebServlet("/updatetrainschedule")
@@ -52,3 +52,4 @@ public class UpdateTrainSchedule extends HttpServlet {
 	}
 
 }
+
