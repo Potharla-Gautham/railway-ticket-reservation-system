@@ -1,4 +1,4 @@
-package com.shashi.beans;
+package com.gautham.beans;
 
 import java.io.Serializable;
 
@@ -65,3 +65,4 @@ public class TrainBean implements Serializable {
 	}
 
 }
+
