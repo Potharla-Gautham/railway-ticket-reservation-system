@@ -1,9 +1,9 @@
-package com.shashi.service;
+package com.gautham.service;
 
 import java.util.List;
 
-import com.shashi.beans.UserBean;
-import com.shashi.beans.TrainException;
+import com.gautham.beans.UserBean;
+import com.gautham.beans.TrainException;
 
 public interface UserService {
 
@@ -20,3 +20,4 @@ public interface UserService {
 	public UserBean loginUser(String username, String password) throws TrainException;
 
 }
+
