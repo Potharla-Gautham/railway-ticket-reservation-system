@@ -1,4 +1,4 @@
-# Train Ticket Reservation System 
+# Railway Ticket Reservation System
 
 ### About:
 This project is about the Train-Ticket-Reservation-System which is used to view Train Schedule, search trains, Seat availability, Train timings. We can also enquire about fare of different trains. We can get information about train between two stations. We can book seats online. This provides a safe and secure seat reservation system. 
@@ -199,4 +199,5 @@ Note: If any of the above commands fails, please try to fix it first and then pr
 #### "Suggestions and project Improvement are Invited"
 #### P Gautham
 ##### Project Leader
+
 
